@@ -3,10 +3,10 @@
 	<cross-domain-access>
 		<policy>
 			<allow-from http-methods="*" http-request-headers="*">
-				<domain uri="https://app.ecoinsight.com"/>
-				<domain uri="http://beta.ecoinsight.com"/>
-				<domain uri="https://*.ecoinsight.corp"/>
-				<domain uri="http://*.ecoinsight.corp"/>
+				<domain uri="https://app.hooduku.com"/>
+				<domain uri="http://beta.hooduku.com"/>
+				<domain uri="https://*.hooduku.corp"/>
+				<domain uri="http://*.hooduku.corp"/>
 			</allow-from>
 			<grant-to>
 				<resource path="/" include-subpaths="true"/>
